@@ -17,7 +17,6 @@ public class Main {
     public static int[] array(int number) {
         ArrayList<String> arrayList = new ArrayList<String>();
         number = Math.abs(number);
-        int[] ama;
         int length = String.valueOf(number).length();
         int[] result = new int[length];
         while (number != 0) {
